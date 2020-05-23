@@ -4,9 +4,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-    .boxed {
-        border: 1px solid blue ;
-      }
+   
 
       .fa {
         padding: 100px;
@@ -38,9 +36,4 @@
     background-size: cover;
   
   }
-$('.aniview').AniView();
-  var options = {
-    animateThreshold: 100,
-    scrollPollInterval: 20
-}
-$('.aniview').AniView(options);
+  
