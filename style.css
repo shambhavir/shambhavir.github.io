@@ -26,3 +26,15 @@
     background: #55ACEE;
     color: white;
   }      
+  .parallax
+  {
+      background-image:image("photos/finalpic.jpg");
+  
+      height = 500px;
+  
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
