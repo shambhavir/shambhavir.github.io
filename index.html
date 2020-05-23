@@ -5,16 +5,26 @@
 <link rel="stylesheet" href= "style.css">
 <html>
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
-<style>
-
-</style>
-<div class="parallax"></div>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+		ScrollReveal({ duration: 1000 })
+	</script>
 </head>
-</html>
-<body>
 
+
+<body>
+    <h1 class="headline">
+		Widget Inc.
+    </h1>
+    <p class="tagline">
+		The perfect widgets.
+		<span class="punchline">Forever.</span>
+	</p>
+    <script>
+		ScrollReveal().reveal('.headline')
+		ScrollReveal().reveal('.tagline', { delay: 500 })
+		ScrollReveal().reveal('.punchline', { delay: 2000 })
+	</script>
 <nav class="w3-bar w3-blue">
     <a href="#home" class="w3-button w3-bar-item">Home</a>
     <a href="#about" class ="w3-button w3-bar-item">About</a>
