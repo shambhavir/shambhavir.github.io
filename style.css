@@ -23,9 +23,7 @@
         z-index: 1;
      }
      
-     .demo .large-header {
-        
-     }
+    
      
      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
@@ -53,7 +51,7 @@ p {
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 456px;}
+  to{width: 10000px;}
 }
 
 /* cursor animations */
