@@ -43,7 +43,7 @@ p {
 }
 
 /* Animation */
-p {
+.paragraphAni {
   animation: animated-text 4s steps(50,end) 1s 1 normal both,
              animated-cursor 600ms steps(50,end) infinite;
 }
