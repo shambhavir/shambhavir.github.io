@@ -37,9 +37,7 @@
   
   }
   #particles-js{
-    width: 100%;
-    background-color: #3454BF;
-    background-image: url('');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    margin: 0 auto;
+    width:800px;
+    height:500px;
   }
