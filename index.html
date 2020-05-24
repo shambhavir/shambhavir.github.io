@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href= "style.css">
 
+<script
+src = "particle.js"
+></script>
 
 
 <head>
@@ -14,20 +17,29 @@
     </script>
     <link rel="stylesheet" type="text/css" href="animate.css">
 
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     
 </head>
 
 <body style = "background-color: #336EFF;" >
+   <div id = "navbar">
+       <span>
+           Particles.js
+       </span>
+   </div>
+   <div id = "wrapper" >
+        <div id = "particle.div">
+        </div>
+        <button id = "particle-button">
+            Start
+        </button>
+   </div>
+   <script>
+       $("#particle-button").click(function(){
+           particlesJS.load('particle-div', 'particle-cnfg.json'); 
+       }); 
+   </script>
+
    
-<div id = particles.js></div>
-
-   <script
-       type = "text/javascript" src = "particle.js"></script>
-       <script
-       type = "text/javascript" src = "app.js"></script>
-
-
 <nav class="w3-bar">
     <a href="#w3-container w3-center" class="w3-button w3-bar-item">Home</a>
     <a name = "w3-container w3-center"></a>
