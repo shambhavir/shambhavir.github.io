@@ -30,7 +30,7 @@
 body{
   padding: 40px;
   background-color:teal;
-  font-family: "'Courier', Courier, slab-serif";
+  font-family: 'Source Code Pro', monospace;  
 }
 
 p {
@@ -59,6 +59,6 @@ p{
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0, 255, 255, 0.75);}
+  from{border-right-color: rgba(255, 0, 0, 0.75);}
   to{border-right-color: transparent;}
 }
