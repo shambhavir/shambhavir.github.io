@@ -117,7 +117,15 @@
 
 
 
-</body>
+
 </html> 
 
-
+</body>
+var options = {
+    particleColor: '#fff',
+    background: '#1a252f',
+    interactive: true,
+    speed: 'fast',
+    density: 'medium'
+};
+var particleCanvas = new ParticleNetwork(document.getElementById('particle-canvas'), options);
