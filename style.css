@@ -73,7 +73,7 @@
     
     /* The typewriter cursor effect */
     @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: white; }
+      from, to { width: 20}
+      50% { width: 50}
     }
      
